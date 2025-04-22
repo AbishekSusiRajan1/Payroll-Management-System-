@@ -7,7 +7,7 @@ class Employee:
         self.hours_worked = 0
         self.bonus = 0
         self.deductions = 0
-
+#Error corrected
     def calculate_salary(self):
         base_salary = self.hourly_rate * self.hours_worked
         gross_salary = base_salary + self.bonus
